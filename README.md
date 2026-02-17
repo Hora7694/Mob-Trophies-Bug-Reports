@@ -1,5 +1,3 @@
-# ![Banner](https://i.imgur.com/GkCj5qc.png)
-
 # 🛠️ Mob Trophies - Bug Tracker
 
 > **Welcome to the official repository for reporting issues and suggesting improvements for the Mob Trophies Hytale Mod.**
