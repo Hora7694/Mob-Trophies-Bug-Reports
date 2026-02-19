@@ -1,0 +1,37 @@
+---
+name: "🪲 Bug Report"
+about: "Report a bug to help us improve the mod."
+title: "[Replace it by a short description of your issue]"
+labels: ["bug", "triage"]
+assignees: "Hora7694"
+---
+
+## 🛠️ **BUG REPORT DETAILS**
+
+> [!WARNING]
+> **DO NOT ONLY PROVIDE LOG FILES.**
+> Reports containing only a log file without context or description will be closed automatically.
+
+### 📝 **1. Description**
+*Provide a clear and concise description of what the bug is. What happened?*
+> 
+
+### 👣 **2. Steps to Reproduce (If possible)**
+*Explain exactly how I can trigger this bug myself. If you don't know how, just explain what you were doing.*
+1. Go to '...'
+2. Click on '....'
+3. Use item '....'
+4. See error: '....'
+
+### 🎯 **3. Expected Behavior**
+*What was supposed to happen?*
+> 
+
+### 🖼️ **4. Visual Evidence**
+*Add screenshots, GIFs, or videos to help explain your problem. (Drag & Drop them here)*
+
+### 📄 **5. Logs & System Info**
+*Attach your `[DATE]_server.log` file here (found in <HYTALE-FOLDER>/UserData/Saves/<SAVE>/logs).*
+
+---
+**Thank you for your report!** Your help is essential for the stability of **Mob Trophies**.
