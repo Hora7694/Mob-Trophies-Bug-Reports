@@ -1,0 +1,40 @@
+name: "🪲 Bug Report"
+description: Report a bug to help us improve the mod.
+title: "[BUG]: "
+labels: ["bug", "triage"]
+assignees:
+  - Hora7694
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🛠️ **BUG REPORT DETAILS**
+        > [!WARNING]
+        > **DO NOT ONLY PROVIDE LOG FILES.**
+        > Reports containing only a log file without context or description will be closed automatically.
+  - type: textarea
+    id: description
+    attributes:
+      label: "📝 1. Description"
+      description: Provide a clear and concise description of what happened.
+      placeholder: "Explain what happened here..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "👣 2. Steps to Reproduce (If possible)"
+      description: Explain how I can trigger this bug.
+      placeholder: "1. Open game, 2. Click on..."
+  - type: textarea
+    id: expected
+    attributes:
+      label: "🎯 3. Expected Behavior"
+      description: What was supposed to happen?
+  - type: textarea
+    id: logs
+    attributes:
+      label: "📄 5. Logs & System Info"
+      description: Attach your [DATE]_server.log file here.
+    validations:
+      required: true
