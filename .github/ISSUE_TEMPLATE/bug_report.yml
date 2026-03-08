@@ -25,7 +25,7 @@ body:
     attributes:
       label: "📦 2. Version"
       description: Can you tell me which version you are using?
-      placeholder: "e.g. 'v0.4.2-h3', 'v0.4.2-h3-HYTALOR'"
+      placeholder: "e.g. 'v0.4.2-h3', 'v0.4.2-h3-HYTALOR', etc..."
     validations:
       required: true
   - type: textarea
