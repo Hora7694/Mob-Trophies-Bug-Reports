@@ -12,37 +12,104 @@ body:
         > [!WARNING]
         > **DO NOT ONLY PROVIDE LOG FILES.**
         > Reports containing only a log file without context or description will be closed automatically.
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 📝 General Information
+        *Basic details about the issue.*
+
   - type: textarea
     id: description
     attributes:
-      label: "📝 1. Description"
+      label: "1. Description"
       description: Provide a clear and concise description of what happened.
       placeholder: "Explain what happened here..."
     validations:
       required: true
+
   - type: input
     id: version
     attributes:
-      label: "📦 2. Version"
-      description: Can you tell me which version you are using?
-      placeholder: "e.g. 'v0.4.2-h3', 'v0.4.2-h3-HYTALOR', etc..."
+      label: "2. Mod Version"
+      description: Which version of the mod are you using?
+      options:
+        - "v0.5.1-h4"
+        - "v0.5.1-h4-HYTALOR"
+        - "v0.5-h4"
+        - "v0.5-h4-HYTALOR"
+        - "v0.4.2 - Hytale v3"
+        - "v0.4.2-HYTALOR - Hytale v3"
+        - "v0.4.1 - Hytale v3"
+        - "v0.4.1-HYTALOR - Hytale v3"
+        - "v0.4"
+        - "v0.4-HYTALOR"
+        - "v0.3.3"
+        - "v0.3.2"
+        - "v0.3.1"
+        - "v0.3"
+        - "v0.2"
+        - "v0.1"
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 🌐 Technical Environment
+        *Details about where the bug happened and your hardware.*
+
+  - type: dropdown
+    id: environment_type
+    attributes:
+      label: "3. World Type"
+      description: Does this happen in solo play or on a dedicated server?
+      options:
+        - "Single-player (Local)"
+        - "Multiplayer (Dedicated Server)"
+        - "Both"
+    validations:
+      required: true
+
+  - type: input
+    id: client_gpu
+    attributes:
+      label: "4. Client GPU"
+      description: Your local graphics card (the one in your PC).
+      placeholder: "e.g. NVIDIA RTX 3080"
+    validations:
+      required: true
+
+  - type: input
+    id: server_gpu
+    attributes:
+      label: "5. Server GPU"
+      description: If playing on a server, what is its GPU? (Type 'N/A' if solo or unknown).
+      placeholder: "e.g. AMD Radeon RX 9060 XT"
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 👣 Reproduction & Logs
+        *Help us see what you saw.*
+
   - type: textarea
     id: steps
     attributes:
-      label: "👣 3. Steps to Reproduce (If possible)"
+      label: "6. Steps to Reproduce"
       description: Explain how I can trigger this bug.
       placeholder: "1. Open game, 2. Click on..."
+
   - type: textarea
     id: expected
     attributes:
-      label: "🎯 4. Expected Behavior"
+      label: "7. Expected Behavior"
       description: What was supposed to happen?
+
   - type: textarea
     id: logs
     attributes:
-      label: "📄 5. Logs & System Info"
-      description: Attach your [DATE]_server.log file here.
+      label: "8. Logs & System Info"
+      description: Please attach your latest [DATE]_server.log or client.log.
     validations:
       required: true
