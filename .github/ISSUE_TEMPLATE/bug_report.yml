@@ -28,7 +28,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
     id: version
     attributes:
       label: "2. Mod Version"
@@ -59,7 +59,7 @@ body:
         ## 🌐 Technical Environment
         *Details about where the bug happened and your hardware.*
 
-  - type: input
+  - type: dropdown
     id: environment_type
     attributes:
       label: "3. World Type"
