@@ -59,7 +59,7 @@ body:
         ## 🌐 Technical Environment
         *Details about where the bug happened and your hardware.*
 
-  - type: dropdown
+  - type: input
     id: environment_type
     attributes:
       label: "3. World Type"
